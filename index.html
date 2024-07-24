@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<!-- html: etiqueta principal, engloba toda la página, nada va fuera de esta etiqueta. -->
+<!-- lang="es": lenguaje de la página -->
+
+<html lang="es">
+<!-- head: Configuraciones, que no se ven en el sitio -->
+<!-- conectar archivos, describir el sitio, poner tamaños -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title: Titúlo de la pestaña de la página -->
+    <title>Mi primer página</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- body: Contenido visible de la página -->
+<!-- Aquí vamos a ocupar nuestro catálogo de etiquetas-->
+
+
+<!-- <body> <body style="background-color: rgb(244, 246, 182);" cambio de color de pagina> -->
+
+<!-- cambio color de texto   <style>
+        body {
+            color:brown;
+        }
+        h1{
+            color:blue;
+        }
+    </style> -->
+
+<body>
+    <!-- Cabeceras, h# determina tamaño de letra -->
+    <header>
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            <img id="logo" src="https://tecnolochicas.mx/public/images/tecnolochicas-logo.png"
+                alt="logo technolochicas">
+        </a>
+        <ul id="navegacion">
+            <li> <a href="#perrito">Perrito</a></li>
+            <li><a href="#perritos">Perritos</a></li>
+            <li> <a href="https://www.youtube.com/watch?v=SmiSUMxceOw" target="_blank">Videos de perritos</a></li>
+        </ul>
+    </header>
+    <main>
+
+
+        <h1 class="texto_centrado ">¡Hola Mundo!</h1>
+        <h2>¡Hola Mundo!</h2>
+        <a href="#perrito">
+            <h2>Perrito</h2>
+        </a>
+
+        <h3>¡Hola Mundo!</h3>
+
+        <ul>
+            <li>Perrito</li>
+            <li>Perritos</li>
+            <li>Videos de perritos</li>
+        </ul>
+
+        <ol>
+            <li>Perrito</li>
+            <li>Perritos</li>
+            <li>Videos de perritos</li>
+        </ol>
+
+        <!-- id es para identificar inmediatamente de que es la iimagen, es nombre unnico, class es para categorias, se puede repetir -->
+        <!-- widht es para tamaño y height es para la altura -->
+
+        <p class="texto_centrado">
+
+            <h5 id="perrito" > Perrito</h5>
+        <p>
+            Tener un solo perro puede ser una experiencia muy gratificante y enriquecedora. Un perro no solo es un
+            compañero leal, sino que también puede convertirse en un miembro importante de la familia. Al tener un solo
+            perro, puedes dedicarle más tiempo y atención, lo que fomenta un vínculo más fuerte y una relación más
+            profunda.
+
+            Con un solo perro, es más fácil gestionar su cuidado y bienestar. Puedes centrarte en sus necesidades
+            individuales, asegurándote de que reciba la cantidad adecuada de ejercicio, una dieta balanceada y la
+            atención veterinaria necesaria. Esto puede resultar en un perro más saludable y feliz. Además, es más
+            sencillo entrenar a un perro cuando no hay otras distracciones caninas.
+        </p>
+
+        <img width="200" class="mascota"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwWRH-oXGeRDRQxDcmt1EgAt-FzSg_qAQFBA&s"
+            alt="Imagen de perrito">
+
+            <h5 id="perritos"> Perritos</h5>
+        <p>
+            Tener muchos perros puede ser una experiencia increíblemente divertida y llena de amor, pero también
+            conlleva una serie de desafíos y responsabilidades adicionales. Para los amantes de los perros, tener más de
+            uno significa recibir múltiples dosis de cariño y lealtad. Cada perro tiene su propia personalidad, lo que
+            puede hacer que la vida en el hogar sea muy dinámica y entretenida.
+
+            Uno de los beneficios de tener muchos perros es que ellos pueden hacer compañía entre sí, lo que es
+            especialmente útil si pasan tiempo solos durante el día. Pueden jugar juntos, ejercitarse y mantenerse
+            mutuamente entretenidos, lo que puede reducir el aburrimiento y la ansiedad por separación. Además, observar
+            la interacción entre ellos puede ser muy divertido y enriquecedor para los dueños.
+
+
+        </p>
+        <img height="200"  class="mascota" src="perrito.jpeg" alt="Imagen de perritos">
+        </p>
+
+        <div class="texto_centrado">
+            <p class=" inline-block mascota texto_centrado">
+                Los <i>perros</i> son la <s>representación</s> de la <b>alegria</b> <mark>genuina</mark>
+            </p>
+        </div>
+<p>
+        <img width="200" id="perrito" class="mascota"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwWRH-oXGeRDRQxDcmt1EgAt-FzSg_qAQFBA&s"
+            alt="Imagen de perrito">
+        </p>
+<div class="texto_centrado">  
+           <p class="inline-block mascota texto_centrado">Los perros unidos!!
+</div>
+
+        </p>
+        <img height="200" id="perritos" class="mascota" src="perrito.jpeg" alt="Imagen de perritos">
+        <p>
+            <a href="https://www.youtube.com/watch?v=SmiSUMxceOw">Videos de perros chistosos</a>
+        </p>
+
+        <p>
+            <a href="https://www.youtube.com/watch?v=SmiSUMxceOw" target="_blank">Videos de perros chistosos</a>
+        </p>
+        <p>
+            <a href="https://www.youtube.com/watch?v=SmiSUMxceOw" target="_blank"> <img id="logo"
+                    src="https://media.istockphoto.com/id/618949520/es/foto/el-perro-m%C3%A1s-feliz-del-mundo.jpg?s=612x612&w=0&k=20&c=N8a8nu1LZW_uZWSVK6f2sfEO5_UrL5zIvPChA0rx5Dk="
+                    alt="Perros chistosos">
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.youtube.com/watch?v=SmiSUMxceOw" target="_blank">
+
+                <button>Presioname</button> </a>
+        </p>
+    </main>
+<footer>
+    <h5>Hecho por Isabel (<i><a href="https://malinali.dev/">Bellgarc_15</a></i>) en <b>Technolochicas PRO</b></h5>
+    <h6>
+
+        <a href="contacto.html">Contacto</a>
+
+    </h6>
+</footer>
+</body>
+
+</html>

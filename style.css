@@ -1,0 +1,57 @@
+/* Selector Universal*/
+
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* Selector de etiqueta */
+body {
+    background-color: beige;
+    padding: 1em;
+}
+p { 
+    color: blueviolet;
+}
+footer {
+    text-align: end;
+}
+
+/* Selector de clase */
+.mascota {
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #655aca;
+    width: 300px;
+    height: auto;
+}
+
+.texto_centrado {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+
+/* Nos permite seleccionar un elemento unico dentro de un sitio web */
+#logo{
+    width: 200px;
+}
+
+#navegacion{
+    display: inline;
+}
+/* aqui se puede combinar mas de una opcion para ir filtrando las etiquetas */
+
+#navegacion li{
+    display: inline;
+}
+#contacto {
+    background-image: url("paisaje.jpeg");
+    background-repeat: no-repeat;
+    background-position:  center top;
+    background-size: 100% 70%;
+}
